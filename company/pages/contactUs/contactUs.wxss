@@ -1,0 +1,41 @@
+/* pages/contactUs/contactUs.wxss */
+.contact-wrap{
+  background: #f4f4f4;
+  padding: 40rpx;
+  height: 100%;
+  box-sizing: border-box;
+}
+.form-wrap .ipt{
+  margin-bottom: 60rpx;
+}
+.form-wrap .ipt view{
+  font-size: 30rpx;
+  color: #333;
+}
+.form-wrap .ipt view text{
+  color: red;
+  position: relative;
+  left: -6rpx;
+}
+.form-wrap .ipt radio-group{
+  margin-top: 20rpx;
+  font-size: 24rpx;
+  color: #333;
+}
+.form-wrap .ipt radio-group .radio text{
+  margin-right: 20rpx;
+  position: relative;
+  top: 4rpx;
+}
+.form-wrap .ipt input{
+  height: 62rpx;
+  border: 2rpx solid #a9a9a9;
+  padding-left: 10rpx;
+  margin-top: 20rpx;
+}
+.btn-area button{
+  border: none;
+  background: #3bbb00;
+  color: white;
+  font-size: 30rpx;
+}

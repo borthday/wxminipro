@@ -1,0 +1,29 @@
+<!--pages/contactUs/contactUs.wxml-->
+<view class='contact-wrap' style='height:{{pageHeight}}'>
+  <form bindsubmit="formSubmit" class='form-wrap'>
+    <view class="name-wrap ipt">
+      <view><text>*</text>姓名：</view>
+      <input placeholder="请输入您的姓名" placeholder-style="color:#999;font-size:24rpx;" bindinput="getNameValue"/>
+    </view>
+    <view class="phone-wrap ipt">
+      <view><text>*</text>电话：</view>
+      <input placeholder="请输入您的电话" placeholder-style="color:#999;font-size:24rpx;" bindinput="getPhoneValue" type='number'/>
+    </view>
+    <view class="radio-wrap ipt">
+      <view><text>*</text>请选择您要咨询的需求：</view>
+      <radio-group class="radio-group" bindchange="radioChange">
+        <label class="radio" wx:for="{{radioItems}}">
+          <radio value="{{item.name}}" checked="{{item.checked}}"/>
+          <text>{{item.value}}</text>
+        </label>
+      </radio-group>
+    </view>
+    <view class="message-wrap ipt">
+      <view><text>*</text>留言：</view>
+      <input placeholder="请输入您想咨询的内容" placeholder-style="color:#999;font-size:24rpx;" bindinput="getMsgValue"/>
+    </view>
+    <view class="btn-area">
+      <button formType="submit">马上提交</button>
+    </view>
+  </form>
+</view>

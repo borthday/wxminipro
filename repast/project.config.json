@@ -13,7 +13,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "2.4.0",
 	"appid": "wx849aa1d445962536",
-	"projectname": "ws",
+	"projectname": "repast",
 	"isGameTourist": false,
 	"condition": {
 		"search": {

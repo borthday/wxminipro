@@ -1,0 +1,26 @@
+<!--pages/aboutUs/aboutUs.wxml-->
+<view class='about-wrap'>
+  <view class='about-content'>
+    <view class='banner'>
+      <image src='{{bannerImg}}'></image>
+    </view>
+    <view class='summary-wrap'>
+      <view class='summary'>
+        <view class='title'>xxxx云计算有限公司</view>
+        <text>xxxx云计算有限公司xxxx云计算有限公司xxxx云计算有限公司xxxx云计算有限公司xxxx云计算有限公司xxxx云计算有限公司xxxx云计算有限公司xxxx</text>
+      </view>
+    </view>
+    <view class='summary-item grow-up'>
+      <view class='grow-up-txt'>企业展示</view>
+      <image src='{{bannerImg}}'></image>
+    </view>
+    <view class='summary-item grow-up'>
+      <view class='grow-up-txt'>服务类型</view>
+      <image src='{{bannerImg}}'></image>
+    </view>
+    <view class='summary-item grow-up'>
+      <view class='grow-up-txt'>荣誉证书</view>
+      <image src='{{bannerImg}}'></image>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,24 @@
+/* pages/products/products.wxss */
+.products-wrap{
+  background: #f4f4f4;
+  padding: 30rpx;
+}
+.show-area{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.show-detail{
+  width: 49%;
+  margin-bottom: 18rpx;
+}
+.show-detail .show-image{
+  display: block;
+  height: 200rpx;
+  width: 100%;
+}
+.img-title,.img-description{
+  font-size: 24rpx;
+  text-align: center;
+}
