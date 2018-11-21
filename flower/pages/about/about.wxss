@@ -1,0 +1,17 @@
+.about{
+  width: 100%;
+  margin: 0 15rpx;
+}
+image{
+  width: 100%;
+
+}
+.info{
+  font-size: 28rpx;
+}
+.info view{
+  margin-top: 10px;
+}
+.tel{
+  color: #1D0FFF;
+}

@@ -34,6 +34,8 @@ App({
     })
   },
   globalData: {
-    userInfo: null
+    userInfo: null,
+    subDomain: "monica",
+    shareProfile: '百款精品商品，总有一款适合您'
   }
 })

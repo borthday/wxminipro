@@ -1,0 +1,22 @@
+<view class='details'>
+  <view class='title'>
+    <text>{{current.title}}</text>
+  </view>
+  <view class='banner'>
+    <image mode='scaleToFill' src='{{current.img}}'></image>
+    <view class='describe'>{{current.content}}</view>
+  </view>
+  <view class='min-img'>
+    <block wx:for='{{goods}}' wx:key = '{{item}}'>
+      <image src="{{item.img}}" height='45' bindtap='click' data-good='{{item}}'></image>
+    </block>
+  </view>
+  <view class='text'>
+    <view class='text1'>详情</view>
+    <view class='content'>{{current.content}}</view>
+  </view>
+  <view class='tel' bindtap='tel' data-ph='{{current.phone}}'>
+    <view class='iconfont icon-dianhua'></view>
+    <view>电话</view>
+  </view>
+</view>
