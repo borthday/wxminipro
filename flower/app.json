@@ -1,12 +1,33 @@
 {
-  "pages":[
+  "pages": [
+    "pages/home/home",
+    "pages/about/about",
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/products-details/details"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+    "navigationBarTitleText": "鲜花网",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#707070",
+    "selectedColor": "#1296db",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "static/images/home.png",
+        "selectedIconPath": "static/images/home-active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "iconPath": "static/images/about.png",
+        "selectedIconPath": "static/images/about-active.png",
+        "text": "关于我们"
+      }
+    ]
   }
 }

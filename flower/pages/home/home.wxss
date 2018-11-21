@@ -1,0 +1,23 @@
+.home {
+  margin: 0 5px;
+}
+swiper {
+  height: 350rpx;
+  width: 100%;
+}
+swiper image {
+  height: 100%;
+  width: 100%;
+}
+.video {
+  margin-top: 10rpx;
+  width: 100%;
+}
+.flows{
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.flows image{
+  height: 240rpx;
+}
