@@ -1,4 +1,5 @@
 {
-  "component": true,
-  "usingComponents": {}
+  "navigationBarTitleText": " ",
+  "enablePullDownRefresh": false,
+  "disableScroll": true
 }
