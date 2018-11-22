@@ -1,15 +1,17 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/menu/menu",
+    "pages/products/products",
+    "pages/aboutUs/aboutUs",
     "pages/contactUs/contactUs",
+    "pages/productsDetail/productsDetail",
     "pages/logs/logs"
   ],
-  "window": {
-    "backgroundTextStyle": "light",
+  "window":{
+    "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#576b95",
     "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle": "white"
+    "navigationBarTextStyle":"white"
   },
   "tabBar": {
     "list": [
@@ -20,10 +22,16 @@
         "selectedIconPath": "images/home-active.png"
       },
       {
-        "pagePath": "pages/menu/menu",
-        "text": "菜单",
-        "iconPath": "images/menu.png",
-        "selectedIconPath": "images/menu-active.png"
+        "pagePath": "pages/products/products",
+        "text": "产品中心",
+        "iconPath": "images/pro-center.png",
+        "selectedIconPath": "images/pro-center-active.png"
+      },
+      {
+        "pagePath": "pages/aboutUs/aboutUs",
+        "text": "关于我们",
+        "iconPath": "images/about-us.png",
+        "selectedIconPath": "images/about-us-active.png"
       },
       {
         "pagePath": "pages/contactUs/contactUs",

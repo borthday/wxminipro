@@ -1,13 +1,8 @@
 <!--index.wxml-->
-<view class="container">
-  <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称>餐饮 </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
-  </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
+<view class='home-wrap' style='height:{{pageHeight}}'>
+  <view class='big-img-wrap'>
+    <image src='{{bigImg}}'></image>
+    <button class='order-phone btn' bindtap='makePhoneCall'>电话预定</button>
+    <button class='menu btn' bindtap='goMenu'>菜单</button>
   </view>
 </view>

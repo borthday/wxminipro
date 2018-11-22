@@ -1,0 +1,10 @@
+<!--pages/products/products.wxml-->
+<view class='products-wrap'>
+  <view class='show-area'>
+    <view class='show-detail' wx:for="{{productsImgUrls}}" bindtap='goDetail' data-url='{{item.url}}' data-title='{{item.title}}' data-description='{{item.description}}'>
+      <image src='{{item.url}}' class='show-image'></image>
+      <view class='img-title'>{{item.title}}</view>
+      <view class='img-description'>{{item.description}}</view>
+    </view>
+  </view>
+</view>

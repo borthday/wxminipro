@@ -1,21 +1,37 @@
 /**index.wxss**/
-.userinfo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.home-wrap{
+  background: #f4f4f4;
+  padding: 30rpx;
+  box-sizing: border-box;
 }
-
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
+.big-img-wrap image{
+  width: 100%;
+  height: 100%;
+  display: block;
 }
-
-.userinfo-nickname {
-  color: #aaa;
+.big-img-wrap{
+  position: relative;
+  height: 100%;
 }
-
-.usermotto {
-  margin-top: 200px;
+.btn{
+  width: 400rpx;
+  height: 80rpx;
+  background: white;
+  border: 1px solid #1afa29;
+  color: #1afa29;
+  text-align: center;
+  line-height: 80rpx;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.order-phone{
+  top: 100rpx;
+  left: 50%;
+  margin-left: -200rpx;
+}
+.menu{
+  top: 200rpx;
+  left: 50%;
+  margin-left: -200rpx;
 }

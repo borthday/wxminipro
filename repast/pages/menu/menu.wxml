@@ -1,0 +1,12 @@
+<!--pages/menu/menu.wxml-->
+<view class='menu-wrap' style='height:{{pageHeight}}'>
+  <view class='menu-content'>
+    <view wx:for="{{foodImgUrls}}" class='food-item'>
+      <image src="{{item.url}}"/>
+      <view class='shadow'>
+        <text class='food-name'>{{item.title}}</text>
+        <text class='price'>￥{{item.price}}</text>
+      </view>
+    </view>
+  </view>
+</view>

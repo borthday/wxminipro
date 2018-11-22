@@ -1,0 +1,14 @@
+<!--pages/productsDetail/productsDetail.wxml-->
+<view class='pro-detail-wrap' style='height:{{pageHeight}}'>
+  <view class='detail-area'>
+    <image src='{{detailImg}}'></image>  
+    <view class='title-area'>
+      <view>产品标题</view>
+      <view>{{detailTitle}}</view>
+    </view>
+    <view class='des-area'>
+      <view>产品描述</view>
+      <view>{{detailDes}}</view>
+    </view>
+  </view>
+</view>

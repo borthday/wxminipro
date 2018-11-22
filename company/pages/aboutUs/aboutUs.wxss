@@ -1,0 +1,42 @@
+/* pages/aboutUs/aboutUs.wxss */
+.about-wrap{
+  background: #f4f4f4;
+  box-sizing: border-box;
+}
+.banner image{
+  width: 100%;
+  height: 350rpx;
+  display: block;
+}
+.summary-wrap{
+  height: 360rpx;
+  background: white;
+  padding: 0 30rpx;
+}
+.summary{
+  transform: translate(0, -26rpx);
+  background: white;
+  padding: 40rpx;
+  border-radius: 8rpx;
+  box-shadow: 0rpx 10rpx 5rpx #888888;
+}
+.summary .title{
+  font-size: 36rpx;
+  margin-bottom: 20rpx;
+}
+.summary text{
+  font-size: 26rpx;
+  color: #666;
+}
+.summary-item .grow-up-txt{
+  height: 80rpx;
+  background: white;
+  line-height: 80rpx;
+  padding-left: 30rpx;
+  font-size: 30rpx;
+}
+.summary-item image{
+  width: 100%;
+  height: 250rpx;
+  display: block;
+}

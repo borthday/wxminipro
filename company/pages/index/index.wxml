@@ -1,0 +1,27 @@
+<!--index.wxml-->
+<view class="home-wrap">
+  <view class='banner-wrap'>
+    <swiper indicator-dots="true" autoplay="true" interval="3000" duration="1000" class='swiper-wrap' indicator-active-color="red" circular="true">
+      <block wx:for="{{bannerImgUrls}}">
+        <swiper-item>
+          <image src="{{item}}" class="slide-image" />
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <view class='publicity-wrap'>
+    <view class='publicity-title'>品质宣传</view>
+    <view class='video-wrap'>
+      <video src="{{videoSrc}}" controls class='video'></video>
+    </view>
+  </view>
+  <view class='recommendation-wrap'>
+    <view class='recommendation-title'>产品推荐</view>
+    <view class='products-show'>
+      <block wx:for="{{productsImgUrls}}">
+        <image src='{{item}}' class='products-image'></image>
+      </block>
+    </view>
+  </view>
+  <view class='no-more'>没有更多了。。。</view>
+</view>

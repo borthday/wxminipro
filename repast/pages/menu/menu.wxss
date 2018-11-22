@@ -1,0 +1,38 @@
+/* pages/menu/menu.wxss */
+.menu-wrap{
+  background: #f4f4f4;
+  padding: 30rpx;
+  box-sizing: border-box;
+}
+.menu-content{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.menu-content .food-item{
+  width: 49%;
+  height: 250rpx;
+  position: relative;
+  margin-bottom: 20rpx;
+}
+.food-item image{
+  display: block;
+  height: 250rpx;
+  width: 100%;
+  border-radius: 8rpx;
+}
+.food-item .shadow{
+  width: 100%;
+  box-sizing: border-box;
+  height: 70rpx;
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  padding: 10rpx;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 30rpx;
+  color: white;
+}

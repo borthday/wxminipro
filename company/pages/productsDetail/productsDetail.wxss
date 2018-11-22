@@ -1,0 +1,9 @@
+/* pages/productsDetail/productsDetail.wxss */
+.pro-detail-wrap {
+  background: #f4f4f4;
+  padding: 30rpx;
+}
+.detail-area image{
+  display: block;
+  height: 350rpx;
+}

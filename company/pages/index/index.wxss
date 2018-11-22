@@ -1,0 +1,52 @@
+/**index.wxss**/
+.home-wrap{
+  background: #f4f4f4;
+}
+.banner-wrap{
+  width: 100%;
+}
+.swiper-wrap{
+  height: 350rpx;
+}
+.slide-image{
+  display: block;
+  width: 100%;
+}
+.publicity-wrap{
+  height: 100%;
+}
+.publicity-title,.recommendation-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90rpx;
+  background: white;
+  font-size: 24rpx;
+  color: #333;
+}
+.video{
+  display: block;
+  height: 340rpx;
+  width: 100%;
+}
+.products-show{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 18rpx 18rpx 0 18rpx;
+}
+.products-show .products-image{
+  display: block;
+  height: 200rpx;
+  width: 49%;
+  margin-bottom: 18rpx;
+}
+.no-more{
+  height: 60rpx;
+  background: #f4f4f4;
+  text-align: center;
+  line-height: 60rpx;
+  color: #666;
+  font-size: 26rpx;
+}
