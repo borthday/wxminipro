@@ -3,7 +3,7 @@
   <swiper indicator-dots="{{indicatorDots}}" circular='true' autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
     <block wx:for="{{imgUrls}}" wx:key='index'>
       <swiper-item>
-        <image src="{{item}}" class="slide-image" mode="aspectFill"/>
+        <image src="{{item}}" class="slide-image" background-size="cover" mode="aspectFill"/>
       </swiper-item>
     </block>
   </swiper>
@@ -11,6 +11,10 @@
   <view class='flows'>
     <block wx:for='{{flows}}' wx:key='{{item.id}}'>
       <image src="{{item.url}}" data-id='{{item.id}}' height='300' bindtap='details'></image>
+      <view class="mt">
+        <text class="price">39</text>
+        <text class="unit">元起</text>
+      </view>
     </block>
   </view>
 </view>

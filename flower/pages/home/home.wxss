@@ -2,7 +2,7 @@
   margin: 0 5px;
 }
 swiper {
-  height: 350rpx;
+  height: 417rpx;
   width: 100%;
 }
 swiper image {
@@ -17,7 +17,14 @@ swiper image {
   margin-top: 10px;
   display: flex;
   justify-content: space-between;
+  position: relative;
 }
 .flows image{
   height: 240rpx;
+  width:375rpx;
+}
+.mt{
+  position: absolute;
+  left:0;
+  top: 0;
 }
