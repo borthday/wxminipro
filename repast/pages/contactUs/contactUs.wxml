@@ -4,18 +4,24 @@
     <view class='banner'>
       <image src='{{bannerImg}}'></image>
     </view>
-    <view class='shop-name'>xxxxxxx</view>
-    <view class='contact-phone'>
-      <view class='title'>联系电话：</view>
-      <text>0000000000000</text>
-    </view>
-    <view class='contact-add'>
-      <view class='title'>联系地址：</view>
-      <text>0000000000000</text>
-    </view>
-    <view class='contact-mail'>
-      <view class='title'>联系邮箱：</view>
-      <text>0000000000000</text>
+    <view class='info-contain'>
+      <view class='map'>
+        <map id="map" longitude="{{longitude}}" latitude="{{latitude}}" scale="14" markers="{{markers}}"show-location style="width: 100%; height: 206rpx;"></map>
+      </view>
+      <view class='info'>
+        <view class='phone'>
+          <view>联系电话</view>
+          <view>0755-888888</view>
+        </view>
+        <view class='address'>
+          <view>联系地址</view>
+          <view>深圳市福田区会展中心皇庭广场11-3店铺</view>
+        </view>
+        <view class='mail'>
+          <view>联系邮箱</view>
+          <view>754822264@qq.com</view>
+        </view>
+      </view>
     </view>
   </view>
 </view>

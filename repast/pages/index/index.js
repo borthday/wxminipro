@@ -4,7 +4,7 @@ const app = getApp()
 
 Page({
   data: {
-    bigImg: 'https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3653844908,331289520&fm=27&gp=0.jpg',
+    bigImg: 'https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=1303554900,2466042767&fm=26&gp=0.jpg',
     pageHeight: ''
   },
   onLoad: function () {
@@ -17,13 +17,13 @@ Page({
     })
   },
   goMenu: function () {
-    wx.navigateTo({
-      url: '/pages/menu/menu',
+    wx.switchTab({
+      url: '../menu/menu',   //注意switchTab只能跳转到带有tab的页面，不能跳转到不带tab的页面
     })
   },
-  makePhoneCall:function(){
+  makePhoneCall: function () {
     wx.makePhoneCall({
-      phoneNumber: '10086' //仅为示例，并非真实的电话号码
+      phoneNumber: '0755-888888'
     })
   }
 })

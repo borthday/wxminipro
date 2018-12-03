@@ -1,12 +1,26 @@
 <!--pages/menu/menu.wxml-->
 <view class='menu-wrap' style='height:{{pageHeight}}'>
-  <view class='menu-content'>
-    <view wx:for="{{foodImgUrls}}" class='food-item'>
-      <image src="{{item.url}}"/>
-      <view class='shadow'>
-        <text class='food-name'>{{item.title}}</text>
-        <text class='price'>￥{{item.price}}</text>
+  <view class='menu-banner'>
+    <image src='{{bannerUrl}}'></image>
+  </view>
+  <view class='menu-lists'>
+    <scroll-view class="menu-scroll" scroll-y style='height:{{}}'>
+      <view class='lists-item' wx:for="{{foodImgUrls}}">
+        <view class='left'>
+          <image src='{{item.url}}'></image>
+        </view>
+        <view class='middle'>
+          <text class='title'>{{item.title}}</text>
+          <view class='stars'>
+            <block wx:for="{{item.starNum}}">
+              <image src='../../images/star.png'></image>
+            </block>
+          </view>
+          <text class='des'>{{item.des}}</text>
+          <text class='price'>￥{{item.price}}</text>
+        </view>
+        <view class='right'>查看详情</view>
       </view>
-    </view>
+    </scroll-view>
   </view>
 </view>

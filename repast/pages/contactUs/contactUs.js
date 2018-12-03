@@ -6,7 +6,17 @@ Page({
    */
   data: {
     pageHeight: '',
-    bannerImg: 'https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3653844908,331289520&fm=27&gp=0.jpg'
+    bannerImg: '../../images/contact-banner.png',
+    longitude:'114.0598030000',
+    latitude:'22.5337020000',
+    markers: [{
+      iconPath: "../../images/star.png",
+      id: 0,
+      latitude: 22.5337020000,
+      longitude: 114.0598030000,
+      width: 20,
+      height: 20
+    }]
   },
 
   /**

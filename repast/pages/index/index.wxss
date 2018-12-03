@@ -1,7 +1,6 @@
 /**index.wxss**/
 .home-wrap{
   background: #f4f4f4;
-  padding: 30rpx;
   box-sizing: border-box;
 }
 .big-img-wrap image{
@@ -14,24 +13,26 @@
   height: 100%;
 }
 .btn{
-  width: 400rpx;
-  height: 80rpx;
-  background: white;
-  border: 1px solid #1afa29;
-  color: #1afa29;
+  width: 610rpx;
+  height: 100rpx;
+  background: #fede01;
+  border-radius: 40rpx;
+  color: #1e1e1e;
+  font-size: 34rpx;
+  font-weight: 900;
   text-align: center;
-  line-height: 80rpx;
+  line-height: 100rpx;
   position: absolute;
   top: 0;
   left: 0;
 }
 .order-phone{
-  top: 100rpx;
+  top: 518rpx;
   left: 50%;
-  margin-left: -200rpx;
+  margin-left: -305rpx;
 }
 .menu{
-  top: 200rpx;
+  top: 680rpx;
   left: 50%;
-  margin-left: -200rpx;
+  margin-left: -305rpx;
 }

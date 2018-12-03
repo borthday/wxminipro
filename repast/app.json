@@ -7,9 +7,9 @@
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#576b95",
+    "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle": "white"
+    "navigationBarTextStyle": "black"
   },
   "tabBar": {
     "list": [
@@ -32,8 +32,9 @@
         "selectedIconPath": "images/call-us-active.png"
       }
     ],
-    "backgroundColor": "#f3f3f3",
-    "color": "#8a8a8a",
-    "selectedColor": "#1afa29"
+    "backgroundColor": "#fff",
+    "border":"none",
+    "color": "#adadad",
+    "selectedColor": "#1e1e1e"
   }
 }

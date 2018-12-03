@@ -5,66 +5,50 @@ Page({
    * 页面的初始数据
    */
   data: {
+    bannerUrl: 'https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=2433009038,3451832003&fm=26&gp=0.jpg',
     foodImgUrls: [
       {
-        url: 'https://ss0.baidu.com/73t1bjeh1BF3odCf/it/u=1380613922,980220755&fm=85&s=99526D97424352E60C5DF86E0300E072',
-        title: 'aaa',
-        price: '99.0'
+        url: 'https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1851046772,1532392127&fm=27&gp=0.jpg',
+        title: '波士顿龙虾',
+        starNum: 5,
+        des: '特色龙虾双人浪漫餐',
+        price: '288.00'
       },
       {
-        url: 'https://ss0.baidu.com/73t1bjeh1BF3odCf/it/u=1380613922,980220755&fm=85&s=99526D97424352E60C5DF86E0300E072',
-        title: 'bbb',
-        price: '99.0'
+        url: 'https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2660868715,3297303764&fm=27&gp=0.jpg',
+        title: '波士顿龙虾',
+        starNum: 3,
+        des: '特色龙虾双人浪漫餐',
+        price: '288.00'
       },
       {
-        url: 'https://ss0.baidu.com/73t1bjeh1BF3odCf/it/u=1380613922,980220755&fm=85&s=99526D97424352E60C5DF86E0300E072',
-        title: 'ccc',
-        price: '99.0'
+        url: 'https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3351374957,3310776641&fm=27&gp=0.jpg',
+        title: '波士顿龙虾',
+        starNum: 4,
+        des: '特色龙虾双人浪漫餐',
+        price: '288.00'
       },
       {
-        url: 'https://ss0.baidu.com/73t1bjeh1BF3odCf/it/u=1380613922,980220755&fm=85&s=99526D97424352E60C5DF86E0300E072',
-        title: 'ddd',
-        price: '99.0'
+        url: 'https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1851046772,1532392127&fm=27&gp=0.jpg',
+        title: '波士顿龙虾',
+        starNum: 5,
+        des: '特色龙虾双人浪漫餐',
+        price: '288.00'
       },
       {
-        url: 'https://ss0.baidu.com/73t1bjeh1BF3odCf/it/u=1380613922,980220755&fm=85&s=99526D97424352E60C5DF86E0300E072',
-        title: 'eee',
-        price: '99.0'
+        url: 'https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2660868715,3297303764&fm=27&gp=0.jpg',
+        title: '波士顿龙虾',
+        starNum: 3,
+        des: '特色龙虾双人浪漫餐',
+        price: '288.00'
       },
       {
-        url: 'https://ss0.baidu.com/73t1bjeh1BF3odCf/it/u=1380613922,980220755&fm=85&s=99526D97424352E60C5DF86E0300E072',
-        title: 'fff',
-        price: '99.0'
-      }, {
-        url: 'https://ss0.baidu.com/73t1bjeh1BF3odCf/it/u=1380613922,980220755&fm=85&s=99526D97424352E60C5DF86E0300E072',
-        title: 'aaa',
-        price: '99.0'
-      },
-      {
-        url: 'https://ss0.baidu.com/73t1bjeh1BF3odCf/it/u=1380613922,980220755&fm=85&s=99526D97424352E60C5DF86E0300E072',
-        title: 'bbb',
-        price: '99.0'
-      },
-      {
-        url: 'https://ss0.baidu.com/73t1bjeh1BF3odCf/it/u=1380613922,980220755&fm=85&s=99526D97424352E60C5DF86E0300E072',
-        title: 'ccc',
-        price: '99.0'
-      },
-      {
-        url: 'https://ss0.baidu.com/73t1bjeh1BF3odCf/it/u=1380613922,980220755&fm=85&s=99526D97424352E60C5DF86E0300E072',
-        title: 'ddd',
-        price: '99.0'
-      },
-      {
-        url: 'https://ss0.baidu.com/73t1bjeh1BF3odCf/it/u=1380613922,980220755&fm=85&s=99526D97424352E60C5DF86E0300E072',
-        title: 'eee',
-        price: '99.0'
-      },
-      {
-        url: 'https://ss0.baidu.com/73t1bjeh1BF3odCf/it/u=1380613922,980220755&fm=85&s=99526D97424352E60C5DF86E0300E072',
-        title: 'fff',
-        price: '99.0'
-      },
+        url: 'https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3351374957,3310776641&fm=27&gp=0.jpg',
+        title: '波士顿龙虾',
+        starNum: 5,
+        des: '特色龙虾双人浪漫餐',
+        price: '288.00'
+      }
     ],
     pageHeight: ''
   },
