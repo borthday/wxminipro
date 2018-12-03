@@ -19,7 +19,7 @@
           <text class='des'>{{item.des}}</text>
           <text class='price'>￥{{item.price}}</text>
         </view>
-        <view class='right'>查看详情</view>
+        <!-- <view class='right'>查看详情</view> -->
       </view>
     </scroll-view>
   </view>

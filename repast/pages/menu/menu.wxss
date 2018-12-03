@@ -34,7 +34,7 @@
   display: flex;
   padding: 20rpx;
   box-sizing: border-box;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   background: white;
   border-radius: 8rpx;
@@ -94,7 +94,7 @@
   color: #ff473e;
 }
 
-.lists-item .right {
+/* .lists-item .right {
   width: 140rpx;
   height: 56rpx;
   line-height: 56rpx;
@@ -105,4 +105,4 @@
   border-radius: 22rpx;
   position: relative;
   top: 62rpx;
-}
+} */
