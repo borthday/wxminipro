@@ -1,24 +1,36 @@
 /* pages/menu/menu.wxss */
-.menu-wrap{
+
+.menu-wrap {
   background: #f5f5f5;
   box-sizing: border-box;
 }
-.menu-banner{
+
+.menu-banner {
   height: 340rpx;
 }
-.menu-banner image{
+
+.menu-banner image {
   display: block;
   height: 100%;
   width: 100%;
 }
-.menu-lists{
+
+.menu-lists {
   padding: 0 30rpx;
 }
-.menu-scroll{
+
+.menu-scroll {
   height: 800rpx;
   margin-top: -30rpx;
 }
-.lists-item{
+
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  color: transparent;
+}
+
+.lists-item {
   display: flex;
   padding: 20rpx;
   box-sizing: border-box;
@@ -28,51 +40,61 @@
   border-radius: 8rpx;
   margin-bottom: 30rpx;
 }
-.lists-item:last-child{
+
+.lists-item:last-child {
   margin-bottom: 0rpx !important;
 }
-.lists-item .left{
+
+.lists-item .left {
   width: 202rpx;
   height: 202rpx;
 }
-.lists-item .left image{
+
+.lists-item .left image {
   display: block;
   width: 100%;
   height: 100%;
   border-radius: 8rpx;
 }
-.lists-item .middle{
+
+.lists-item .middle {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: left;
   padding: 10rpx 0;
 }
-.middle .title{
+
+.middle .title {
   font-size: 30rpx;
   color: #1e1e1e;
   margin-bottom: 10rpx;
 }
-.middle .des{
+
+.middle .des {
   font-size: 22rpx;
   color: #999;
   margin-bottom: 26rpx;
 }
-.middle .stars{
+
+.middle .stars {
   display: flex;
   justify-content: left;
   margin-bottom: 10rpx;
 }
-.middle .stars image{
+
+.middle .stars image {
   display: block;
   width: 26rpx;
   height: 26rpx;
 }
-.middle .price{
+
+.middle .price {
   font-size: 28rpx;
   color: #ff473e;
 }
-.lists-item .right{
+
+.lists-item .right {
   width: 140rpx;
   height: 56rpx;
   line-height: 56rpx;

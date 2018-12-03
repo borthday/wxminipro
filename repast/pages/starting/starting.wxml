@@ -1,0 +1,12 @@
+<!--pages/starting/starting.wxml-->
+<view class='starting-wrap'>
+  <image src='../../images/start-logo.png'></image>
+  <view class='start-title'>
+    <text class='tlt'>开启美食之旅</text>
+    <view class='tlt'>
+      <text></text>
+      <text></text>
+      <text></text>
+    </view>
+  </view>
+</view>

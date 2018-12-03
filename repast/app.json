@@ -1,5 +1,6 @@
 {
   "pages":[
+    "pages/starting/starting",
     "pages/index/index",
     "pages/menu/menu",
     "pages/contactUs/contactUs",

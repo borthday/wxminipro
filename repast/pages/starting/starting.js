@@ -1,39 +1,29 @@
-// pages/contactUs/contactUs.js
+// pages/starting/starting.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    pageHeight: '',
-    bannerImg: '../../images/contact-banner.png',
-    longitude:'114.0598030000',
-    latitude:'22.5337020000',
-    markers: [{
-      iconPath: "../../images/marker.png",
-      id: 0,
-      latitude: 22.5337020000,
-      longitude: 114.0598030000,
-      width: 30,
-      height: 30
-    }]
+
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    setTimeout(()=>{
+      wx.switchTab({
+        url: '../index/index',   //注意switchTab只能跳转到带有tab的页面，不能跳转到不带tab的页面
+      })
+    },2500)
   },
 
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
-    console.log(wx.getSystemInfoSync().windowHeight)
-    this.setData({
-      pageHeight: wx.getSystemInfoSync().windowHeight + 'px'
-    })
+
   },
 
   /**
